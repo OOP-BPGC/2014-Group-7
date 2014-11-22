@@ -1,0 +1,105 @@
+Login:
+Select 'Student' and press 'Login'
+
+Student Login:
+sample Input:	login ID:	random
+				password:	random
+sample Output:	Invalid combination!
+
+sample Input:	login ID:	3333
+				password:	Abcd123!
+sample Output:	Login
+
+---------------------------------------------------------------------
+
+'Apply Leave' tab:
+sample Input:	Start Date:	Nov 21, 2014
+				End Date:	random
+sample Output:	Start date not valid
+
+sample Input:	Start Date:	Nov 25, 2014
+				End Date: 	Nov 24, 2014
+sample Output:	End date not valid
+
+sample Input:	Start Date: Nov 25, 2014
+				End Date: Nov 25, 2014
+sample Output:	Dates cannot be equal
+
+sample Input:	Start Date:	Nov 25, 2014
+				End Date: 	Nov 28, 2014
+sample Output:	Leave applied
+
+--------------------------------------------------------------------
+
+'Change Password' tab:
+sample Input:	Enter new password:		qwerty123
+				Re-enter new password:	qwerty123
+sample Output:	Invalid password, please try again.
+	
+sample Input:	Enter new password:		Qwerty123!
+				Re-enter new password:	qwerty123
+sample Output:	Not matching, please try again.	
+
+sample Input:	Enter new password:		Qwerty123!
+				Re-enter new password:	Qwerty123!
+sample Output:	Password updated.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+Login:
+Select 'Employee' and press 'Login'
+
+sample Input:	login ID:	1133
+				password:	Abcd123!
+sample Output:	Name: eerrytyui ID: 1133 Designation: clerk
+
+sample Input:	Start Date:	Nov 27, 2014
+				End Date: 	Nov 30, 2014
+sample Output:	Cannot apply for a new leave. Previous leave pending with leave id 22
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+Login:
+Select 'Mess Manager' and press 'Login'
+
+sample Input:	login ID:	111
+				password:	wer
+sample Output:	Name: eerrytyui ID: 1133 Designation: clerk
+
+Click on 'Update Price of Meals'
+sample Input:	Breakfast	30
+Click on 'Price of Meals'
+sample Output:	Breakfast	30
+
+Click on 'Refresh Mess Details'
+sample Output: Refreshed!
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+Login:
+Select 'Clerk Client' and press 'Login'
+
+sample Input:	login ID:	1133
+				password:	Abcd123!
+sample Output:	Name: eerrytyui ID: 1133 Designation: clerk
+
+sample Input:	Enter ID here...:	random
+Click on 'Scan Card'
+sample Output:	Student doesn't exist.
+
+sample Input:	Enter ID here...:	random
+Click on 'Scan Card'
+sample Output:	Student doesn't exist.
+
+sample Input:	Enter ID here...:	2011
+Click on 'Scan Card'
+sample Output:	Student can eat: dinner
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+
+
