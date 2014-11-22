@@ -37,13 +37,13 @@ Use Cases 				4									3 			1
 Classes					13									13			3
 Packages				4									4 			0	
 Sequence diagrams		1 									1 			0
-Unit Tests				11 									11			0
+Unit Tests				7 									7			0
 -----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
 Topic						Number of Test			Test Status
 													Pass	Fail
 -----------------------------------------------------------------------------------------
-Unit Tests submitted at		11						11		0
+Unit Tests submitted at		7						7		0
 the end of Stage-2
 
 
@@ -55,6 +55,9 @@ Tests added later			-						-		-
 
 
 -----------------------------------------------------------------------------------------
+
+Student class calls functions of SWD, so SWDAdminTest is equivalent to StudentTest, hence
+StudentTest not included.
 
 Special Requirements:
 
